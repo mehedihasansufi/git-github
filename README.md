@@ -64,6 +64,21 @@ git merge branch name  <!-- which branch you want to merging with main or master
 ### undo
 
 ```md
+git checkout -- . (in the working directory)
+git reset HEAD . (Staging area)
+git reset --hard HEAD  (Staging & Unstaging area)
+
 ```
+
+
+### Correcting commit
+
+```md
+git commit --amend (correcting the commit message & added some file in this commit)
+- then I for insert something
+- then ESE 
+- then :wq
+```
+
 
 
